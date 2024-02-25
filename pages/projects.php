@@ -22,15 +22,17 @@
                     <table class="standard projects">
 
                         <tr>
-                            <th colspan="1" width="20%">Project</th>
-                            <th colspan="1" width="10%">Type</th>
+                            <th colspan="1" width="18%">Project</th>
+                            <th colspan="1" width="12%">Type</th>
                             <th colspan="1" width="40%">Description</th>
                             <th colspan="1" width="30%"></th>
                         </tr>
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">2nd C# project - CarRace</td>
+                            <td colspan="1">Project
+                                <br />CarRace
+                            </td>
 
                             <td colspan="1">C#</td>
 
@@ -50,7 +52,10 @@
                      
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Pluralsight C# Fundamentals tutorial</td>
+                            <td colspan="1">Tutorial
+                                <br />C# Fundamentals
+                                <br />Pluralsight
+                            </td>
 
                             <td colspan="1">C#</td>
 
@@ -74,7 +79,9 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">1st C# project - Workout</td>
+                            <td colspan="1">Project
+                                <br />Workout
+                            </td>
 
                             <td colspan="1">C#</td>
 
@@ -96,7 +103,10 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Bro Code C# tutorial</td>
+                            <td colspan="1">Tutorial
+                                <br />C# for beginners
+                                <br />Bro Code
+                            </td>
 
                             <td colspan="1">C#</td>
 
@@ -118,9 +128,11 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Keytree Solutions - database POC</td>
+                            <td colspan="1">Keytree Solutions
+                                <br />Proof of concept
+                            </td>
 
-                            <td colspan="1">Web</td>
+                            <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
                                 This is a current Proof Of Concept for a commercial client (although undertaken without recompense).
@@ -141,9 +153,10 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Philhenning.co.uk</td>
+                            <td colspan="1">Philhenning.co.uk
+                            </td>
 
-                            <td colspan="1">Web</td>
+                            <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
                                 The site you are currently looking at is a project of mine that I am still regularly working on. I created it by hand using PHP, MySQL, HTML, CSS, Filezilla and Sublime Text, with support from Trello (backlog management) and Miro (whiteboarding).                                 
@@ -177,9 +190,10 @@
          
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Snow Compare</td>
+                            <td colspan="1">Snow Compare
+                            </td>
 
-                            <td colspan="1">Web</td>
+                            <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
                                 This was my first piece of web development coursework at university. Primarily made to showcase my development skills.
@@ -196,7 +210,7 @@
                         <tr>
                             <td colspan="1">Snow Compare Shop</td>
 
-                            <td colspan="1">Web</td>
+                            <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
                                 This was my second piece of web development coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end.
@@ -211,9 +225,10 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Portal</td>
+                            <td colspan="1">Portal
+                            </td>
 
-                            <td colspan="1">Web</td>
+                            <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
                                 Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step.

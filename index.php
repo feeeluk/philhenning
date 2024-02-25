@@ -278,7 +278,7 @@
                                 </td>
 
                                 <td class="DevLogo">                               
-                                    Learning as I go / alongside coding (see GIT page for more details)
+                                    Tutorials & learning alongside coding.
                                 </td>
 
                                 <td class="DevLogo"></td>
