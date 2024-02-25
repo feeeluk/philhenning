@@ -1,0 +1,36 @@
+body {
+	background: yellow;
+	color: green;
+}
+
+h1 {
+	color: green;
+}
+
+header {
+	max-width:790px;
+	background: #AACCFF;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.blueform {
+		background: #eeeeee;
+		max-width:800px;
+		margin: 0 auto;
+		padding: 10px;
+}
+
+.redinput {
+	background: red;
+}
+
+.input-container {
+	max-width: 800px;
+	background: purple;
+}
+
+.border-test {
+	border-width: 10px;
+	border-color: red;
+}

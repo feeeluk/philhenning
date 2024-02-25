@@ -1,0 +1,253 @@
+/*
+THEME
+background black = rgb(64, 64, 64) || HEX #404040
+Green (main) = rgb(150, 185, 70) || HEX #96B946
+Orange (main) = rgb(240, 135, 15) || HEX #F0870F
+Text = white
+*/
+
+.container {
+    margin: 0 auto 0;
+    width: 900px;
+    text-align: center;
+    padding: 0px;
+}
+
+.logo {
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.navigation {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+    color: white;
+}
+
+.home {
+    text-align: left;
+    margin: 1px 0px 0px;
+    padding: 20px 190px 0px;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    margin: 0 auto 0;
+    width: 900px;
+    bottom: 0;  
+    font-size: 12px;
+    background-color: #404040;
+    color: white;
+}
+
+p {
+    color: red;
+}
+
+table.standard {
+    width: 100%;
+    padding: 0;
+    margin:0;
+    margin-bottom: 10px;
+    text-align: left;
+    border-spacing: 0;
+    border-width: 0;
+    border-color: white;
+    border-style: solid;
+}
+
+body {
+    background-color: #404040;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+th {
+    padding-left: 0px;
+    background: #777777;
+    height: 30px;
+    color: #96B946;
+}
+
+th:nth-child(1){
+    padding-left: 5px;
+}
+
+tr:nth-child(even) {
+    background: #cccccc;
+}
+
+tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+tr {
+    margin:0;
+    padding:0;
+}
+
+td {
+    margin:0;
+    padding: 5px 0px 5px;
+    color: #444444;
+    vertical-align: top;
+}
+
+td:nth-child(1){
+    padding-left: 5px;
+}
+
+td:nth-child(3){
+    padding-right: 50px;
+}
+
+table.login {
+    width: 40%;
+    margin: 0 auto 0;
+}
+
+.login td:nth-child(1) {
+    text-align: right;;
+}
+
+a.login, a.logout {
+    padding-bottom: 20px;
+}
+
+.projects td:nth-child(4) {
+    text-align: center;
+}
+
+a:visited, a:link {
+    color: #F0870F;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+th a:visited, th a:link { 
+    color:  #96B946; 
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+th a:hover {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+div h1 { 
+    text-align: left;
+    color: #96B946;
+    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-weight: 800;    
+}
+
+div.right{
+    text-align: right;
+    min-height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-color: #AAA;
+}
+
+/*  ################################################# */
+/*  FORMATING THE SKILLS MATRIX TABLE ON THE HOMEPAGE */
+
+/* general settings for the class */
+.DevLogo {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* stop the fields inside the table from warping */ 
+table.DevLogo{
+    table-layout: fixed;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* remove the table border and header border */ 
+table.DevLogo, th.DevLogo {
+    border-spacing: 0px;
+    border-width: 0px;
+    border-color: white;
+    border-style: solid;
+}
+
+/* add right borders for header cells */ 
+th.DevLogo {
+    border-right-spacing: 1px;
+    border-right-width: 1px;
+    border-right-color: white;
+    border-right-style: solid;
+}
+
+/* set the cell borders (not doubbling up) */ 
+td.DevLogo {
+    border-spacing: 0px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+    border-style: solid;
+}
+
+/*  setting for the logo */
+img.DevLogo {
+    height: 50px;
+    border: 0px;
+}
+
+/* first header cell (double colspan) */
+th.DevLogo:nth-child(1) {
+    text-align: left;
+}
+
+/* settings for general cells */
+td.DevLogo {
+    font-size: 20px;
+    padding: 2px 5px 2px;
+}
+
+/* second column cells */
+td.DevLogo:nth-child(2) {
+    text-align: left;
+    font-size: 15px;
+}
+
+/* third column cells */
+td.DevLogo:nth-child(3) {
+    font-size: 12px;
+    overflow: auto;
+    white-space: normal;
+}

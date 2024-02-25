@@ -1,0 +1,9 @@
+# Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^philhenning.atwebpages.com[nc]
+RewriteRule ^(.*)$ http://philhenning.atwebpages.com/$1 [r=301,nc]
+
+# Custom 404 errors
+ErrorDocument 404 /pages/errors/404.php
+

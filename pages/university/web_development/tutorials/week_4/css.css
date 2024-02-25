@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+}
+
+tr {
+}
+
+tr:nth-child(odd) {
+	background: #def;
+}
+
+tr:nth-child(even) {
+	background: #eeeeee;
+}
+
+td {
+	padding: 0;
+	margin: 0;
+}
+
+td:last-child {
+	vertical-align: top;
+	padding: 30px;
+}
+
+img {
+	vertical-align: middle;
+   	width: 200px;
+   	padding: 15px;
+   	margin: 0;
+}
